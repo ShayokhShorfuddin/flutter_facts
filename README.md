@@ -40,9 +40,9 @@ The code above will throw an error. As you did ```isNotSafe: true```, the packag
 
 ### Available Facts
 
-**Safe Facts** : 6671
-**Unsafe Facts** : 108
-**Mixed Facts** : 6779
+* **Safe Facts** : 6671
+* **Unsafe Facts** : 108
+* **Mixed Facts** : 6779
 
 ### Fact Types
 
