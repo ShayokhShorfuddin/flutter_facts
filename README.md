@@ -20,7 +20,7 @@ There are 2 functions that you can use to get facts. They are -
 ```getFact()``` will give you 1 fact depending on the parameters you gave it. It may return Safe/ Unsafe/ Mixed.
 ```getFacts()``` will give you a "List" of facts depending on the parameters you gave it. It may return Safe/ Unsafe/ Mixed.
 
-**NOTE**: If you are going to use ```getfacts```, make sure to pass the ```amount``` parameter to tell the package "How many facts do you wanna get in the List". Also, make sure that the ```amount``` you pass is "At least 1 or equal to the amount of available facts". For example - 
+**NOTE**: If you are going to use ```getFacts```, make sure to pass the ```amount``` parameter to tell the package "How many facts do you wanna get in the List". Also, make sure that the ```amount``` you pass is "At least 1 or equal to the amount of available facts". For example - 
 
 Suppose you did this..
 
@@ -29,7 +29,7 @@ Center(
   child: Column(
      mainAxisSize: MainAxisSize.min,
      children: [
-        for (var item in Facts().get_facts(amount: 112, isNotSafe: true))
+        for (var item in Facts().getFacts(amount: 112, isNotSafe: true))
         Text(item)
      ]
    )
