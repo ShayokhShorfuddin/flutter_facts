@@ -67,7 +67,7 @@ If you want to get a mixed fact that can `Safe or Unsafe`, simply do -
 To get only Safe facts, do -
 
 * ```Facts().getFact(isSafe: true)  // For 1 safe fact```
-* ```Facts().getFacts(amount: 5, isSafe: true)  // For getting a list of safe fact. Currently it will give you a List with 7 random safe facts.```
+* ```Facts().getFacts(amount: 5, isSafe: true)  // For getting a list of safe fact. Currently it will give you a List with 5 random safe facts.```
 
 **NOTE**: You can also get Safe facts using ```isNotSafe: false```. That's because ```isSafe: true``` and ```isNotSafe: false``` is the same thing :]
 
