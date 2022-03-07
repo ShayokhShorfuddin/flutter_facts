@@ -56,8 +56,8 @@ You can get 3 types of facts from this package.
 
 If you want to get a mixed fact that can `Safe or Unsafe`, simply do -
 
-* ```Facts().getFact()  // For 1 mixed fact```
-* ```Facts().getFacts(amount: 7) // For getting a list of mixed fact. Currently it will give you a List with 7 random mixed facts.```
+* ```dart Facts().getFact()  // For 1 mixed fact```
+* ```dart Facts().getFacts(amount: 7) // For getting a list of mixed fact. Currently it will give you a List with 7 random mixed facts.```
 
 
 ## Usage
