@@ -35,7 +35,7 @@ Center(
    )
 )
 ```
-The code above will throw an error. As you did ```isNotSafe: true```, the package will get all the available "Unsafe" facts and then try to get random "112" Unsafe facts for you. But 112 safe facts are not available yet. There are currently 108 Unsafe facts available. So, the minimum amount is 1 and maximum is the the amount of available facts. :]
+The code above will throw an error. As you did ```isNotSafe: true```, the package will get all the available "Unsafe" facts and then try to get random "112" Unsafe facts for you. But 112 Unsafe facts are not available yet. There are currently 108 Unsafe facts available. So, the minimum amount is 1 and maximum is the the amount of available facts. :]
 
 
 ### Available Facts
