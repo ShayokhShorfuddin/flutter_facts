@@ -29,13 +29,13 @@ Center(
   child: Column(
      mainAxisSize: MainAxisSize.min,
      children: [
-        for (var item in Facts().get_facts(amount: 999, isSafe: true))
+        for (var item in Facts().get_facts(amount: 112, isNotSafe: true))
         Text(item)
      ]
    )
 )
 ```
-The code above will throw an error. As you did ```isSafe: true```, the package will get all the available "Safe" facts and then try to get random "999" Safe facts for you. But 999 safe facts are not available yet. There are currently 
+The code above will throw an error. As you did ```isNotSafe: true```, the package will get all the available "Unsafe" facts and then try to get random "112" Unsafe facts for you. But 112 safe facts are not available yet. There are currently 108 Unsafe facts available. So, the minimum amount is 1 and maximum is the 
 
 Safe facts : 6671
 UnSafe facts : 108
