@@ -48,7 +48,7 @@ class Facts {
     return selectedFact;
   }
 
-  List get_facts({required int amount, bool? isSafe, bool? isNotSafe}) {
+  List getFacts({required int amount, bool? isSafe, bool? isNotSafe}) {
     List selectedFacts = [];
     List random_facts = [];
 
