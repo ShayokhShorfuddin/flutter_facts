@@ -59,7 +59,7 @@ If you want to get a mixed fact that can be `Safe or Unsafe`, simply do -
 * ```Facts().getFact()  // For 1 mixed fact```
 * ```Facts().getFacts(amount: 7) // For getting a list of mixed fact. Currently it will give you a List with 7 random mixed facts.```
 
-**NOTE**: Make Sure you don't pass `isSafe` or `isNotSafe` in order to get mixed fact. 
+**NOTE**: Make sure you don't pass `isSafe` or `isNotSafe` in order to get mixed fact. 
 
 
 ### Safe Facts
