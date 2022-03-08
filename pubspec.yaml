@@ -1,4 +1,4 @@
-name: facts
+name: flutter_facts
 description: A Flutter package that provides various types of facts and also allows you to filter only Safe or Unsafe facts.
 version: 0.0.1
 homepage:
